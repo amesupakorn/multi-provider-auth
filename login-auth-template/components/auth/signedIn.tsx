@@ -19,7 +19,6 @@ export const SignedIn = () => {
         </p>
       </div>
 
-      {/* Sign out button */}
       <button
         onClick={() => signOut()}
         className="absolute bottom-12 z-20 px-4 py-2 bg-gray-50 rounded-md hover:bg-gray-100 transition"
