@@ -1,3 +1,5 @@
+"use client"
+
 import { FacebookButton } from "@/components/buttons/facebookButton"
 import { GithubButton } from "@/components/buttons/githubButton"
 import { GoogleButton } from "@/components/buttons/googlebutton"

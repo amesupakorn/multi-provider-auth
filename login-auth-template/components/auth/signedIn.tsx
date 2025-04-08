@@ -1,7 +1,7 @@
 "use client"
 
 import { useSession, signOut } from "next-auth/react"
-import Lottie from "lottie-react"
+import { LottieClient } from "@/components/LottieClient"
 import { BsFillCheckCircleFill } from "react-icons/bs"
 import confetti from "@/public/lotties/confetti.json"
 
@@ -27,9 +27,8 @@ export const SignedIn = () => {
         Sign out
       </button>
 
-      {/* Lottie background */}
       <div className="absolute inset-0 z-10 w-full">
-        <Lottie animationData={confetti} loop={false} />
+        <LottieClient animationData={confetti} loop={false} />
       </div>
     </div>
   )
